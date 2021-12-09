@@ -13,13 +13,9 @@ $secondary-color: #34b483;
     p {
       color: $light-color;
       span {
-        font-weight: 700;
+        text-decoration: underline;
         color: $secondary-color;
       }
-    }
-    i {
-      color: $secondary-color;
-      margin-right: 10px;
     }
   }
 }

@@ -5,22 +5,11 @@ $secondary-color: #34b483;
 header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   padding: 20px 40px;
   align-self: stretch;
   background-color: $primary-color;
   color: $light-color;
   font-style: Bold 700;
   font-size: 1.5rem;
-  span {
-    color: $secondary-color;
-    font-weight: 700;
-    margin-left: 12px;
-  }
-  i {
-    color: $light-color;
-  }
-  i:hover {
-    color: $secondary-color;
-  }
 }
