@@ -1,0 +1,17 @@
+$font-family: "Jura", sans-serif;
+$primary-color: #f7f7f7;
+$base-color: #cbe0db;
+
+body {
+  font: 100% $font-family;
+  color: $primary-color;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: $base-color;
+  align-items: center;
+}
+
+section {
+  margin: 30px auto;
+}

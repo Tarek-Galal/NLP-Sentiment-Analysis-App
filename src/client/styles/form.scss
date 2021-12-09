@@ -1,0 +1,61 @@
+$font-family: "Jura", sans-serif;
+
+$secondary-color: #34b483;
+
+$light-color: #ffff;
+$dark-color: #303031;
+$primary-color: #214779;
+
+form {
+  border-radius: 25px;
+  padding: 40px;
+  background-color: $light-color;
+
+  color: $dark-color;
+
+  .url-input {
+    min-width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    font-style: oblique;
+    height: 30px;
+    background-color: #cbe0db;
+  }
+  p {
+    color: $dark-color;
+    padding-bottom: 20px;
+  }
+
+  .checkbox {
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px 0;
+
+    input:checked + label {
+      color: $secondary-color;
+    }
+    label {
+      margin-left: 10px;
+    }
+  }
+}
+
+.submit-btn {
+  background-color: $primary-color;
+  color: $light-color;
+  border-radius: 10px;
+  border: transparent;
+  padding: 10px 0;
+  line-height: 16px;
+  width: 100%;
+  margin: 10px 0;
+  font-weight: 700;
+  font-family: $font-family;
+}
+.submit-btn:hover {
+  background-color: $secondary-color;
+}

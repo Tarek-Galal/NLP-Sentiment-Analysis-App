@@ -1,0 +1,25 @@
+$light-color: #ffff;
+$primary-color: #214779;
+$secondary-color: #34b483;
+
+#results {
+  div {
+    background-color: $primary-color;
+    border-radius: 25px;
+    padding: 25px;
+    line-height: 1rem;
+
+    h1,
+    p {
+      color: $light-color;
+      span {
+        font-weight: 700;
+        color: $secondary-color;
+      }
+    }
+    i {
+      color: $secondary-color;
+      margin-right: 10px;
+    }
+  }
+}
